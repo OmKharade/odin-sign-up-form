@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Roboto Mono", monospace;
+}
+
+body{
+    min-height: 100vh;
+    min-width: 400px;
+    overflow: hidden;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 100%;
+    height: 110px;
+    padding: 0 5%;
+    color: #fff;
+    font-size: 18px;
+}
+.logo{
+    color:#fff;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-right: auto;
+}
+
+header nav,.menu{
+    display: flex;
+    align-items: center;
+}
+
+nav i{
+    position: relative;
+    font-size: 1.2rem;
+    margin-left: 40px;
+    border-radius: 0.4rem;
+    color: #fff
+}
+
+.home{
+    width:fit-content;
+    padding: 0 5%;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.home-content{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: #fcecd2;
+    margin: 1rem;
+    text-align: center;
+}
+fieldset{
+    border: none;
+    margin: 1rem;
+}
+.form-text{
+    color: #7a401c;
+    padding: 0.3rem 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+.form-textfield,button{
+    background-color: #7a401c;
+    padding: 0.3rem 1.5rem;
+    outline: none;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 5px;
+}
+button{
+    cursor: pointer;
+    transition: background-color 0.3s ease, border-color 0.3s ease, color 0.3s ease;
+}
+button:hover{
+    background: transparent;
+    border-color: #7a401c;
+    color: #7a401c;
+}
+
+.img-1,
+.img-2,
+.img-3,
+.img-4,
+.img-5{
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: -10;
+}
+.img-1{
+    background-image: url(assets/background.png);
+    background-position: center;
+    background-size: cover;
+}
+.img-2{
+    background-image: url(assets/upper.png);
+    background-position: center;
+    background-size: cover;
+}
+.img-3{
+    background-image: url(assets/lower.png);
+    background-position: center;
+    background-size: cover;
+}
+.img-4{
+    background-image: url(assets/branch.png);
+    background-position: center;
+    background-size: cover;
+}
+.img-5{
+    background-image: url(assets/panda.png);
+    background-position: center;
+    background-size: cover;
+}
